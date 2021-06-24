@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#user_card {
+    position: relative;
+    width: 700px;
+    height: 350px;
+    top: 200px;
+    left: 200px;
+    border: lightgrey solid;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+#user_card h1 {
+    position: absolute;
+    top: 135px;
+    left: 40px;
+}
+
+.usercircle {
+    position: absolute;
+    height: 100px;
+    left: 40px;
+    top: 40px;
+}
+
+.location {
+    position: absolute;
+    top: 190px;
+    left: 24px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.mapmarker {
+    position: absolute;
+    height: 1.5em;
+    top: 192px;
+    left: 40px;
+}
+
+#top {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: darkred;
+}
+
+.about {
+    position: absolute;
+    left: 40px;
+    top: 220px;
+}
+
+.about2 {
+    position: absolute;
+    left: 40px;
+    top: 240px;
+}
+
+.gear {
+    position: absolute;
+    left: 40px;
+    top: 300px;
+    height: 1.2em;
+}
+
+.edit_profile {
+    position: absolute;
+    left: 72px;
+    top: 297px;
+}
